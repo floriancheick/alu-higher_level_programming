@@ -1,8 +1,13 @@
 #!/usr/bin/python3
-def uppercase(str):
-    for le in str:
-        if ord(letter) >= 97 and ord(le) <= 123:
-            la = chr(ord(letter) - 32)
-            le = la
-            print("{}".format(le), end='')
-            print()
+letter = -32
+def uppercase(le):
+    i = 0
+    while i < len(le):
+        i = i + 1
+        print("")
+        def islower(la):
+            value = ord(la)
+            if value >= 97 and value <= 122:
+                return True
+            else:
+                return False
