@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-def no_c(my_str):
+def no_c(my_string):
     my_str = ''
-    for i in range (len(my_str)):
-        if my_str[i] == 'C' or my_str[i] == 'c' :
+    for i in range (len(my_string)):
+        if my_string[i] == 'C' or my_string[i] == 'c' :
             continue
-        my_str_cp = my_str_cp + my_str[i]
-        my_str = my_str_cp
-        return my_str
+        my_str = my_str + my_string[i]
+        my_string = my_str
+        return my_string
