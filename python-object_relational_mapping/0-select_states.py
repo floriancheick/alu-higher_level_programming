@@ -1,5 +1,3 @@
-
-
 #!/usr/bin/python3
 """
 Module 0-select_states.py
