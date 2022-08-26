@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" list objects with a in them """
+""" list objects"""
 
 
 if __name__ == "__main__":
