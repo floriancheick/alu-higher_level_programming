@@ -1,5 +1,3 @@
-
-
 #!/usr/bin/python3
 """ module list states
 from database"""
